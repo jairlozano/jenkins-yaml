@@ -1,0 +1,8 @@
+pipeline:
+  agent:
+    node:
+      label: "docker-slave"
+  stages:
+    - stage: Basic Stage
+      steps:
+        - echo "Basic Stage"
