@@ -1,7 +1,7 @@
 pipeline:
   agent:
-    any:
+    label: 'docker-slave'
   stages:
     - stage: Basic Stage
       steps:
-        - echo "Basic Stage"
+        - sh "echo Hola"
